@@ -1,0 +1,266 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{lastpage}
+\usepackage[T1]{fontenc}
+\usepackage{tgtermes} % Times-like font with better weight
+\usepackage{microtype}
+\input{glyphtounicode}
+
+% IMPORTANT: Set PDF to use black text explicitly
+\pdfcompresslevel=0
+\pdfobjcompresslevel=0
+
+% Microtype settings for crisper text
+\microtypesetup{
+    activate={true,nocompatibility},
+    final,
+    tracking=true,
+    kerning=true,
+    spacing=true,
+    factor=1100,
+    stretch=10,
+    shrink=10
+}
+
+% Define pure black for main text
+\definecolor{textblack}{RGB}{0,0,0}
+\definecolor{headingblack}{RGB}{0,0,0}
+\definecolor{linkblue}{RGB}{0,0,180}
+
+% Set default color to pure black
+\AtBeginDocument{\color{textblack}}
+
+% Make all text use pure black by default
+\makeatletter
+\renewcommand{\normalcolor}{\color{textblack}}
+\makeatother
+
+% Better control of page breaks
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom
+
+% Redefine page style with numbers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\bfseries\color{textblack}Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{20pt}
+
+% Section Format - pure black and bold
+\titleformat{\section}
+{\color{headingblack}\Large\bfseries\scshape\raggedright}
+{}{0em}{}[\color{headingblack}\titlerule]
+\titlespacing*{\section}{0pt}{15pt}{10pt}
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Custom commands with forced black color
+\newcommand{\resumeItem}[1]{\item\small{\bfseries\color{textblack}#1}\vspace{-2pt}}
+\newcommand{\resumeSubheading}[4]{
+  \item\small{
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large\color{headingblack}#1} & \textbf{\color{textblack}#2} \\
+      \textbf{\color{textblack}\textit{#3}} & \textbf{\color{textblack}\textit{#4}} \\
+    \end{tabular*}\vspace{-7pt}
+  }
+}
+
+% Redefine text commands for consistent black
+\renewcommand{\textbf}[1]{{\bfseries\color{headingblack}#1}}
+\renewcommand{\textit}[1]{{\itshape\bfseries\color{textblack}#1}}
+
+\begin{document}
+
+% Force black color for entire document
+\color{textblack}
+
+%----------HEADING----------
+\begin{center}
+    {\color{headingblack}\Huge\bfseries PAWAN KUMAR} \\ \vspace{1pt}
+    {\color{textblack}\large\bfseries Senior Full Stack Developer | Mobile \& Web Applications | Flutter \& React Specialist} \\ \vspace{2pt}
+    \bfseries\color{textblack}\small{
+    Location: Jaipur, Rajasthan, India | 
+    Phone: +91 987654321 |
+    Email: \href{mailto:pawanjoshi055@gmail.com}{\color{linkblue}\underline{pawanjoshi055@gmail.com}}}
+    \\ \vspace{1pt}
+    \bfseries\color{textblack}\small{
+    LinkedIn: \href{https://linkedin.com/in/pawan-pareek}{\color{linkblue}\underline{linkedin.com/in/pawan-pareek}} |
+    GitHub: \href{https://github.com/pawan-joshee}{\color{linkblue}\underline{github.com/pawan-joshee}} |
+    Portfolio: \href{https://pawan-joshee.vercel.app}{\color{linkblue}\underline{pawan-joshee.vercel.app}}}
+\end{center}
+
+%-----------CORE COMPETENCIES-----------
+\section{Core Competencies}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+\textbf{Mobile Development:} & \bfseries\color{textblack}Flutter, Dart, Android, iOS, Cross-platform Development \\
+\textbf{Frontend Development:} & \bfseries\color{textblack}React.js,  Next.js, Astro, JavaScript, JS, TypeScript, HTML5, CSS3 \\
+\textbf{Backend Development:} & \bfseries\color{textblack}Node.js, Express.js, RESTful APIs, GraphQL, API Integration \\
+\textbf{State Management:} & \bfseries\color{textblack}BLoC, Provider, Redux, Context API \\
+\textbf{Databases:} & \bfseries\color{textblack}Firebase Firestore, MongoDB, MySQL, NoSQL, SQL \\
+\textbf{Cloud \& DevOps:} & \bfseries\color{textblack}Firebase, Google Cloud Platform, AWS, CI/CD, Docker \\
+\textbf{Development Tools:} & \bfseries\color{textblack}Git, GitHub, Agile, SDLC, Version Control \\
+\textbf{Specializations:} & \bfseries\color{textblack}Performance Optimization, Responsive Design, UI/UX Design
+\end{tabular*}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small\bfseries\color{textblack}{
+Senior Full-Stack Developer with 4+ years of experience specializing in Flutter, Firebase, React.js, and Node.js. 
+Proven track record of delivering high-performance mobile and web applications, including an educational platform with 850K+ downloads 
+supporting 150K+ daily active users. Expertise in building scalable backend systems, cross-platform development, 
+optimizing application performance, and implementing secure payment solutions using Agile methodologies.
+}
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+\begin{itemize}[leftmargin=*]
+\resumeSubheading
+    {[Company]}{June 2021 -- Feb 2025}
+    {Senior Full Stack Mobile \& Web Application Developer}{Jaipur, India}
+    \begin{itemize}[leftmargin=*]
+        \resumeItem{Architected and developed complete Ed-Tech platform (Android, iOS, Web) achieving \textbf{850K+ downloads} and \textbf{150K+ daily users}}
+        \resumeItem{Engineered and deployed admin panel, marketing website, and cross-platform mobile applications as solo full-stack developer}
+        \resumeItem{Built reusable component library of \textbf{50+ custom widgets}, reducing feature development time by \textbf{40\%}}
+        \resumeItem{Implemented secure payment gateways (Razorpay, PhonePe) for course and book purchases across all platforms}
+        \resumeItem{Designed backend architecture with Firebase and Node.js, achieving \textbf{99.9\% uptime} and \textbf{0.9s app load time}}
+        \resumeItem{Optimized image and video loading mechanisms, reducing cellular data usage by \textbf{35\%}}
+    \end{itemize}
+    
+\vspace{1mm}
+
+\resumeSubheading
+    {Various Clients}{Project-based Contract}
+    {Freelance Full Stack Developer}{Remote}
+    \begin{itemize}[leftmargin=*]
+        \resumeItem{Developed full-stack WhatsApp Business Integration System using Meta Graph API with webhook implementation}
+        \resumeItem{Created responsive web interface with advanced filtering, real-time chat, and campaign targeting features}
+        \resumeItem{Increased client lead conversion and revenue by \textbf{28\%}, maintaining \textbf{99.7\% delivery rate} for \textbf{500+ daily messages}}
+        \resumeItem{Implemented automated personalized messaging system with comprehensive search and targeting capabilities}
+    \end{itemize}
+
+\vspace{1mm}
+
+\resumeSubheading
+    {OK To Travel}{3-Month Contract}
+    {Lead Mobile Developer}{Remote}
+    \begin{itemize}[leftmargin=*]
+        \resumeItem{Led development of comprehensive travel agency management application using Flutter and Firebase}
+        \resumeItem{Implemented multi-user role system with agent dashboards for managing customers, suppliers, and transactions}
+        \resumeItem{Designed financial tracking features including bank accounts, cash management, and categorized expenses}
+        \resumeItem{Developed advanced reporting system with graphical visualizations and PDF export capabilities}
+    \end{itemize}
+\end{itemize}
+
+\pagebreak
+
+%-----------KEY PROJECTS-----------
+\section{Key Projects}
+\nopagebreak
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Ed-Tech Platform} \hfill \bfseries\color{textblack}\textit{Flutter • Firebase • Node.js • Next.js • React}
+    \begin{itemize}[leftmargin=*]
+        \resumeItem{Educational super-app with admin panel, mobile apps, and web interfaces developed as solo full-stack developer}
+        \resumeItem{Achieved \textbf{850K+ downloads} with excellent user ratings and \textbf{99.9\% uptime} using modern development practices}
+        \resumeItem{\textbf{Links:} \href{https://taiyarikarlo.com}{\color{linkblue}Website} | \href{https://play.google.com/store/apps/details?id=com.uddan.taiyarikarlo}{\color{linkblue}Play Store} | \href{https://apps.apple.com/in/app/taiyari-karlo/id1660007473}{\color{linkblue}App Store}}
+    \end{itemize}
+    
+    \item \textbf{OK To Travel Agency Management App} \hfill \bfseries\color{textblack}\textit{Flutter • Firebase • Node.js}
+    \begin{itemize}[leftmargin=*]
+        \resumeItem{Complete travel agency management solution with multi-user roles, customer/supplier management}
+        \resumeItem{Implemented financial tracking and reporting with PDF generation capabilities}
+        \resumeItem{\textbf{Links:} \href{https://play.google.com/store/apps/details?id=com.redflute.oktravel}{\color{linkblue}Play Store} | \href{https://oktotravel.in/}{\color{linkblue}Website}}
+    \end{itemize}
+
+\vspace{1.5mm}
+
+    \item \textbf{Math Equation Editor (Open Source)} \hfill \bfseries\color{textblack}\textit{Flutter Web • LaTeX}
+    \begin{itemize}[leftmargin=*]
+        \resumeItem{Real-time LaTeX editor with PNG/SVG export and dynamic brackets support}
+        \resumeItem{Implemented responsive design supporting both desktop and mobile views}
+        \resumeItem{\textbf{Links:} \href{https://math-equation-editor.web.app}{\color{linkblue}Live App} | \href{https://github.com/pawan-joshee/math_equation_editor}{\color{linkblue}GitHub}}
+    \end{itemize}
+
+\vspace{1.5mm}
+
+    \item \textbf{Android TV PDF Viewer (Open Source)} \hfill \bfseries\color{textblack}\textit{Flutter}
+    \begin{itemize}[leftmargin=*]
+        \resumeItem{Developed first-ever PDF viewer for Android TV with optimized large-screen UI and remote control support}
+        \resumeItem{Built with Flutter for optimal large-screen performance and intuitive navigation}
+        \resumeItem{\textbf{Links:} \href{https://github.com/pawan-joshee/android_tv_pdf_viewer}{\color{linkblue}GitHub}}
+    \end{itemize}
+\end{itemize}
+
+\vspace{2mm}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+\textbf{Programming Languages:} & \bfseries\color{textblack}Dart, JavaScript, JS, TypeScript, HTML5, CSS3 \\
+\textbf{Frameworks \& Libraries:} & \bfseries\color{textblack}Flutter, React.js, Next.js, Astro, Node.js, Express.js \\
+\textbf{Mobile Development:} & \bfseries\color{textblack}Flutter, Android, iOS, Cross-platform, Mobile App Development \\
+\textbf{Web Development:} & \bfseries\color{textblack}React.js, Next.js, Responsive Design, PWA, Admin Dashboard \\
+\textbf{Backend Technologies:} & \bfseries\color{textblack}Node.js, Express.js, RESTful APIs, GraphQL, API Development \\
+\textbf{Databases:} & \bfseries\color{textblack}Firebase Firestore, Supabase, MongoDB, MySQL, NoSQL \\
+\textbf{Cloud \& DevOps:} & \bfseries\color{textblack}Firebase, Google Cloud Platform, AWS, CI/CD, Docker \\
+\textbf{Payment Integration:} & \bfseries\color{textblack}Razorpay, PhonePe, Payment Gateway Integration \\
+\textbf{Development Tools:} & \bfseries\color{textblack}Git, GitHub, Version Control, Agile, Scrum, SDLC
+\end{tabular*}
+
+%-----------EDUCATION-----------
+\section{Education}
+\nopagebreak
+\begin{itemize}[leftmargin=*]
+    \resumeSubheading
+        {Maharaja Ganga Singh University}{2018}
+        {Bachelor of Science (Physics, Chemistry, Mathematics)}{Bikaner}
+    
+    \resumeSubheading
+        {National Institute of Electronics \& Information Technology (NIELIT)}{2018}
+        {O Level Certification (Computer Software Technology)}{Grade: B}
+\end{itemize}
+
+\vspace{1mm}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\nopagebreak
+\begin{itemize}[leftmargin=*]
+    \resumeItem{Pioneered development of \textbf{first-ever Android TV PDF viewer}, addressing significant gap in ecosystem}
+    \resumeItem{Successfully delivered applications achieving \textbf{850K+ downloads} with excellent user ratings and reviews}
+    \resumeItem{Optimized application performance reducing cellular data usage by \textbf{35\%} through efficient loading mechanisms}
+    \resumeItem{Enhanced code reliability and maintainability through comprehensive component libraries and testing}
+    \resumeItem{Consistently delivered multiple complex projects as solo developer within tight deadlines}
+\end{itemize}
+
+\vspace{1mm}
+
+%-----------LANGUAGES-----------
+\section{Languages}
+\nopagebreak
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Hindi:} \bfseries\color{textblack}Native \hfill \textbf{English:} \bfseries\color{textblack}Proficient
+\end{itemize}
+
+% Updated date in footer
+\vfill
+\begin{center}
+{\small \color{black} \bfseries This résumé is built using \LaTeX.}
+\end{center}
+
+\end{document}
