@@ -37,6 +37,16 @@ copilot, please convert my resume (attached) into a modern, ATS-friendly LaTeX r
 - Use Overleaf’s preview and version control to make iterations and get feedback.
 
 ---
+...
+
+## 🖼️ Sample Resume Output
+
+Here is an example of an ATS-friendly resume generated using this method:
+
+![Resume page 1](image1)
+![Resume page 2](image2)
+
+...
 
 ## 🔄 Alternative Approach: Using Libraries & Packages
 
@@ -117,3 +127,4 @@ Reach out on [LinkedIn](https://linkedin.com/in/pawan-pareek) or [GitHub](https:
 ---
 
 **Build your resume the modern way—ATS-friendly, elegant, and future-proof!**
+
