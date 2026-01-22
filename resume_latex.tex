@@ -19,20 +19,12 @@
 \usepackage{microtype}
 \input{glyphtounicode}
 
-% IMPORTANT: Set PDF to use black text explicitly
-\pdfcompresslevel=0
-\pdfobjcompresslevel=0
-
 % Microtype settings for crisper text
 \microtypesetup{
-    activate={true,nocompatibility},
     final,
     tracking=true,
     kerning=true,
-    spacing=true,
-    factor=1100,
-    stretch=10,
-    shrink=10
+    spacing=true
 }
 
 % Define pure black for main text
@@ -93,45 +85,61 @@
 %----------HEADING----------
 \begin{center}
     {\color{headingblack}\Huge\bfseries PAWAN KUMAR} \\ \vspace{1pt}
-    {\color{textblack}\large\bfseries Senior Full Stack Developer | Mobile \& Web Applications | Flutter \& React Specialist} \\ \vspace{2pt}
+    {\color{textblack}\large\bfseries Founder \& Full Stack Developer | AI-Powered EdTech | Flutter \& Next.js Specialist} \\ \vspace{2pt}
     \bfseries\color{textblack}\small{
     Location: Jaipur, Rajasthan, India | 
-    Phone: +91 987654321 |
+    Phone: +91 XXXXX |
     Email: \href{mailto:pawanjoshi055@gmail.com}{\color{linkblue}\underline{pawanjoshi055@gmail.com}}}
     \\ \vspace{1pt}
     \bfseries\color{textblack}\small{
-    LinkedIn: \href{https://linkedin.com/in/pawan-pareek}{\color{linkblue}\underline{linkedin.com/in/pawan-pareek}} |
+    LinkedIn: \href{https://www.linkedin.com/in/pawan-joshee/}{\color{linkblue}\underline{linkedin.com/in/pawan-joshee}} |
     GitHub: \href{https://github.com/pawan-joshee}{\color{linkblue}\underline{github.com/pawan-joshee}} |
-    Portfolio: \href{https://pawan-joshee.vercel.app}{\color{linkblue}\underline{pawan-joshee.vercel.app}}}
+    Website: \href{https://patamde.com}{\color{linkblue}\underline{patamde.com}}}
 \end{center}
 
 %-----------CORE COMPETENCIES-----------
 \section{Core Competencies}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
 \textbf{Mobile Development:} & \bfseries\color{textblack}Flutter, Dart, Android, iOS, Cross-platform Development \\
-\textbf{Frontend Development:} & \bfseries\color{textblack}React.js,  Next.js, Astro, JavaScript, JS, TypeScript, HTML5, CSS3 \\
-\textbf{Backend Development:} & \bfseries\color{textblack}Node.js, Express.js, RESTful APIs, GraphQL, API Integration \\
-\textbf{State Management:} & \bfseries\color{textblack}BLoC, Provider, Redux, Context API \\
-\textbf{Databases:} & \bfseries\color{textblack}Firebase Firestore, MongoDB, MySQL, NoSQL, SQL \\
-\textbf{Cloud \& DevOps:} & \bfseries\color{textblack}Firebase, Google Cloud Platform, AWS, CI/CD, Docker \\
-\textbf{Development Tools:} & \bfseries\color{textblack}Git, GitHub, Agile, SDLC, Version Control \\
-\textbf{Specializations:} & \bfseries\color{textblack}Performance Optimization, Responsive Design, UI/UX Design
+\textbf{Frontend Development:} & \bfseries\color{textblack}React.js, Next.js 15, TypeScript, Tailwind CSS, HTML5/CSS3 \\
+\textbf{Backend Development:} & \bfseries\color{textblack}Node.js, Express.js, Supabase Edge Functions, RESTful APIs \\
+\textbf{AI \& ML Integration:} & \bfseries\color{textblack}Google Gemini AI, Mistral AI, Google Document AI, OCR Pipeline \\
+\textbf{Databases:} & \bfseries\color{textblack}Supabase PostgreSQL, Firebase Firestore, MongoDB \\
+\textbf{Cloud \& DevOps:} & \bfseries\color{textblack}Firebase, Supabase, Google Cloud Platform, Vercel, CI/CD \\
+\textbf{APIs \& Integrations:} & \bfseries\color{textblack}WhatsApp Business API, Telegram Bot API, YouTube API, Razorpay \\
+\textbf{Specializations:} & \bfseries\color{textblack}AI-Powered EdTech, Real-time Systems, Multi-tenant SaaS
 \end{tabular*}
 
 %-----------PROFESSIONAL SUMMARY-----------
 \section{Professional Summary}
 \small\bfseries\color{textblack}{
-Senior Full-Stack Developer with 4+ years of experience specializing in Flutter, Firebase, React.js, and Node.js. 
-Proven track record of delivering high-performance mobile and web applications, including an educational platform with 850K+ downloads 
-supporting 150K+ daily active users. Expertise in building scalable backend systems, cross-platform development, 
-optimizing application performance, and implementing secure payment solutions using Agile methodologies.
+Founder \& Full-Stack Developer with 5+ years of experience building AI-powered EdTech platforms. 
+Currently running Airflute Technologies, developing PATAMDE—an AI study platform serving \textbf{6,000+ students} with \textbf{95\% quiz accuracy} across \textbf{11+ languages}.
+Expert in Flutter, Next.js, Supabase, and AI integration (Gemini, Document AI, Mistral). 
+Proven track record of shipping production-ready products solo: 4 web platforms, 2 mobile apps, and real-time quiz delivery via Telegram.
+Seeking opportunities in funded startups to apply expertise in scalable EdTech solutions.
 }
 
 %-----------PROFESSIONAL EXPERIENCE-----------
 \section{Professional Experience}
 \begin{itemize}[leftmargin=*]
 \resumeSubheading
-    {[Company]}{June 2021 -- Feb 2025}
+    {Airflute Technologies (Own Company)}{June 2025 -- Present}
+    {Founder \& Full Stack Developer}{Jaipur, India}
+    \begin{itemize}[leftmargin=*]
+        \resumeItem{Founded EdTech startup building PATAMDE ecosystem: AI-powered exam preparation platform serving \textbf{6,000+ students}}
+        \resumeItem{Architected \textbf{4 production platforms}: patamde.com (Flutter, Firebase, Gemini), patamde.in (Next.js, Supabase, Mistral), patamde.net (Next.js, MongoDB), patamde.online (Next.js e-commerce)}
+        \resumeItem{Developed \textbf{2 Flutter mobile apps}: AI Study Helper (5K+ installs) and Polls Patamde for YouTube Live integration}
+        \resumeItem{Built AI-powered OCR pipeline using Google Document AI + Mistral fallback, processing PDFs into quizzes with \textbf{95\% accuracy}}
+        \resumeItem{Implemented real-time quiz delivery via Telegram Bot API with Supabase Edge Functions and pg\_cron scheduling}
+        \resumeItem{Designed multi-tenant SaaS (patamde.in) with bilingual/multilingual support; mobile app supports \textbf{11+ Indian languages}}
+        \resumeItem{Created school website builder (patamde.net) with \textbf{99.9\% uptime} guarantee for 100+ educational institutions}
+    \end{itemize}
+    
+\vspace{1mm}
+
+\resumeSubheading
+    {[Previous Company]}{June 2021 -- Feb 2025}
     {Senior Full Stack Mobile \& Web Application Developer}{Jaipur, India}
     \begin{itemize}[leftmargin=*]
         \resumeItem{Architected and developed complete Ed-Tech platform (Android, iOS, Web) achieving \textbf{850K+ downloads} and \textbf{150K+ daily users}}
@@ -151,19 +159,6 @@ optimizing application performance, and implementing secure payment solutions us
         \resumeItem{Developed full-stack WhatsApp Business Integration System using Meta Graph API with webhook implementation}
         \resumeItem{Created responsive web interface with advanced filtering, real-time chat, and campaign targeting features}
         \resumeItem{Increased client lead conversion and revenue by \textbf{28\%}, maintaining \textbf{99.7\% delivery rate} for \textbf{500+ daily messages}}
-        \resumeItem{Implemented automated personalized messaging system with comprehensive search and targeting capabilities}
-    \end{itemize}
-
-\vspace{1mm}
-
-\resumeSubheading
-    {OK To Travel}{3-Month Contract}
-    {Lead Mobile Developer}{Remote}
-    \begin{itemize}[leftmargin=*]
-        \resumeItem{Led development of comprehensive travel agency management application using Flutter and Firebase}
-        \resumeItem{Implemented multi-user role system with agent dashboards for managing customers, suppliers, and transactions}
-        \resumeItem{Designed financial tracking features including bank accounts, cash management, and categorized expenses}
-        \resumeItem{Developed advanced reporting system with graphical visualizations and PDF export capabilities}
     \end{itemize}
 \end{itemize}
 
@@ -173,79 +168,72 @@ optimizing application performance, and implementing secure payment solutions us
 \section{Key Projects}
 \nopagebreak
 \begin{itemize}[leftmargin=*]
-    \item \textbf{Ed-Tech Platform} \hfill \bfseries\color{textblack}\textit{Flutter • Firebase • Node.js • Next.js • React}
+    \item \textbf{PATAMDE - AI Study Helper Platform} \hfill \bfseries\color{textblack}\textit{Flutter • Firebase • Gemini AI • Vercel}
     \begin{itemize}[leftmargin=*]
-        \resumeItem{Educational super-app with admin panel, mobile apps, and web interfaces developed as solo full-stack developer}
-        \resumeItem{Achieved \textbf{850K+ downloads} with excellent user ratings and \textbf{99.9\% uptime} using modern development practices}
-        \resumeItem{\textbf{Links:} \href{https://taiyarikarlo.com}{\color{linkblue}Website} | \href{https://play.google.com/store/apps/details?id=com.uddan.taiyarikarlo}{\color{linkblue}Play Store} | \href{https://apps.apple.com/in/app/taiyari-karlo/id1660007473}{\color{linkblue}App Store}}
+        \resumeItem{AI-powered exam prep mobile app converting study materials (PDFs, images, text) into personalized quizzes in 30 seconds}
+        \resumeItem{Serves \textbf{6,000+ students} preparing for UPSC, SSC, NEET, JEE, Banking exams with \textbf{95\% quiz accuracy}}
+        \resumeItem{Multi-language support: \textbf{11+ Indian languages} including English, Hindi, Telugu, Tamil, Bengali, Gujarati, Marathi, Kannada}
+        \resumeItem{\textbf{Links:} \href{https://patamde.com}{\color{linkblue}patamde.com} | \href{https://play.google.com/store/apps/details?id=airflute.patamde.sir}{\color{linkblue}Play Store (5K+ installs)}}
     \end{itemize}
     
-    \item \textbf{OK To Travel Agency Management App} \hfill \bfseries\color{textblack}\textit{Flutter • Firebase • Node.js}
+    \item \textbf{PATAMDE for Teachers - Test Generation Platform} \hfill \bfseries\color{textblack}\textit{Next.js • Supabase • Mistral • Gemini}
     \begin{itemize}[leftmargin=*]
-        \resumeItem{Complete travel agency management solution with multi-user roles, customer/supplier management}
-        \resumeItem{Implemented financial tracking and reporting with PDF generation capabilities}
-        \resumeItem{\textbf{Links:} \href{https://play.google.com/store/apps/details?id=com.redflute.oktravel}{\color{linkblue}Play Store} | \href{https://oktotravel.in/}{\color{linkblue}Website}}
+        \resumeItem{Professional exam paper generator for teachers, schools, coaching institutes with bilingual/multilingual support (CBSE, ICSE, State Boards)}
+        \resumeItem{AI-powered question bank with 1L+ questions, automatic answer key generation, Telegram delivery, and \textbf{multiple export formats} (PDF, Word, Image)}
+        \resumeItem{Supports JEE/NEET pattern mock tests, previous year analysis, and performance analytics}
+        \resumeItem{\textbf{Links:} \href{https://patamde.in}{\color{linkblue}patamde.in} | Trusted by 500+ educators}
     \end{itemize}
 
 \vspace{1.5mm}
 
-    \item \textbf{Math Equation Editor (Open Source)} \hfill \bfseries\color{textblack}\textit{Flutter Web • LaTeX}
+    \item \textbf{School Website Builder} \hfill \bfseries\color{textblack}\textit{Next.js • MongoDB • Vercel}
     \begin{itemize}[leftmargin=*]
-        \resumeItem{Real-time LaTeX editor with PNG/SVG export and dynamic brackets support}
-        \resumeItem{Implemented responsive design supporting both desktop and mobile views}
-        \resumeItem{\textbf{Links:} \href{https://math-equation-editor.web.app}{\color{linkblue}Live App} | \href{https://github.com/pawan-joshee/math_equation_editor}{\color{linkblue}GitHub}}
+        \resumeItem{Zero-code website builder for schools with \textbf{99.9\% uptime}, custom domain support, and SSL certificates}
+        \resumeItem{Serving 100+ schools across India with notice boards, event calendars, and gallery management}
+        \resumeItem{\textbf{Links:} \href{https://patamde.net}{\color{linkblue}patamde.net}}
     \end{itemize}
 
 \vspace{1.5mm}
 
-    \item \textbf{Android TV PDF Viewer (Open Source)} \hfill \bfseries\color{textblack}\textit{Flutter}
+    \item \textbf{Polls Patamde - YouTube Live Quiz Controller} \hfill \bfseries\color{textblack}\textit{Flutter • YouTube API • Gemini AI}
     \begin{itemize}[leftmargin=*]
-        \resumeItem{Developed first-ever PDF viewer for Android TV with optimized large-screen UI and remote control support}
-        \resumeItem{Built with Flutter for optimal large-screen performance and intuitive navigation}
-        \resumeItem{\textbf{Links:} \href{https://github.com/pawan-joshee/android_tv_pdf_viewer}{\color{linkblue}GitHub}}
+        \resumeItem{Real-time poll creation for YouTube Live classes with AI-powered PDF quiz extraction}
+        \resumeItem{Fastest Finger First gamification, multi-language support (Hindi, Tamil, English), cloud-synced library}
+        \resumeItem{\textbf{Links:} \href{https://play.google.com/store/apps/details?id=live.polls.patamde}{\color{linkblue}Play Store}}
+    \end{itemize}
+
+\vspace{1.5mm}
+
+    \item \textbf{Previous Ed-Tech Platform} \hfill \bfseries\color{textblack}\textit{Flutter • Firebase • Node.js • Next.js}
+    \begin{itemize}[leftmargin=*]
+        \resumeItem{Educational super-app achieving \textbf{850K+ downloads} with \textbf{99.9\% uptime} as solo full-stack developer}
+        \resumeItem{\textbf{Links:} \href{https://taiyarikarlo.com}{\color{linkblue}Website} | \href{https://play.google.com/store/apps/details?id=com.uddan.taiyarikarlo}{\color{linkblue}Play Store} | \href{https://apps.apple.com/in/app/taiyari-karlo/id1660007473}{\color{linkblue}App Store}}
     \end{itemize}
 \end{itemize}
 
 \vspace{2mm}
 
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
+%-----------ADDITIONAL PROJECTS-----------
+\section{Additional Projects}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
-\textbf{Programming Languages:} & \bfseries\color{textblack}Dart, JavaScript, JS, TypeScript, HTML5, CSS3 \\
-\textbf{Frameworks \& Libraries:} & \bfseries\color{textblack}Flutter, React.js, Next.js, Astro, Node.js, Express.js \\
-\textbf{Mobile Development:} & \bfseries\color{textblack}Flutter, Android, iOS, Cross-platform, Mobile App Development \\
-\textbf{Web Development:} & \bfseries\color{textblack}React.js, Next.js, Responsive Design, PWA, Admin Dashboard \\
-\textbf{Backend Technologies:} & \bfseries\color{textblack}Node.js, Express.js, RESTful APIs, GraphQL, API Development \\
-\textbf{Databases:} & \bfseries\color{textblack}Firebase Firestore, Supabase, MongoDB, MySQL, NoSQL \\
-\textbf{Cloud \& DevOps:} & \bfseries\color{textblack}Firebase, Google Cloud Platform, AWS, CI/CD, Docker \\
-\textbf{Payment Integration:} & \bfseries\color{textblack}Razorpay, PhonePe, Payment Gateway Integration \\
-\textbf{Development Tools:} & \bfseries\color{textblack}Git, GitHub, Version Control, Agile, Scrum, SDLC
+\textbf{OK Travel App:} & \bfseries\color{textblack}Travel agency management with multi-platform bookings, PDF generation (\href{https://play.google.com/store/apps/details?id=com.redflute.oktravel}{\color{linkblue}Play Store}) \\
+\textbf{Catering Group App:} & \bfseries\color{textblack}Order management, real-time sync, analytics dashboard (\href{https://play.google.com/store/apps/details?id=com.catering.redflute}{\color{linkblue}Play Store}) \\
+\textbf{Math Equation Editor:} & \bfseries\color{textblack}Open-source LaTeX editor with PNG/SVG export (\href{https://math-equation-editor.web.app}{\color{linkblue}Live} | \href{https://github.com/pawan-joshee/math_equation_editor}{\color{linkblue}GitHub}) \\
+\textbf{Android TV PDF Viewer:} & \bfseries\color{textblack}First-ever PDF viewer for Android TV, open-source (\href{https://github.com/pawan-joshee/android_tv_pdf_viewer}{\color{linkblue}GitHub})
 \end{tabular*}
-
-%-----------EDUCATION-----------
-\section{Education}
-\nopagebreak
-\begin{itemize}[leftmargin=*]
-    \resumeSubheading
-        {Maharaja Ganga Singh University}{2018}
-        {Bachelor of Science (Physics, Chemistry, Mathematics)}{Bikaner}
-    
-    \resumeSubheading
-        {National Institute of Electronics \& Information Technology (NIELIT)}{2018}
-        {O Level Certification (Computer Software Technology)}{Grade: B}
-\end{itemize}
 
 \vspace{1mm}
 
 %-----------ACHIEVEMENTS-----------
-\section{Achievements}
+\section{Achievements \& Recognition}
 \nopagebreak
 \begin{itemize}[leftmargin=*]
+    \resumeItem{Received \textbf{\$2,000 Google Cloud Credits} through Google for Startups program for PATAMDE AI platform}
+    \resumeItem{Featured in \textbf{Rajasthan Patrika} (major Hindi daily) for building AI study app without formal tech degree (\href{https://www.patrika.com/churu-news/google-gave-funding-to-software-developer-pawan-joshi-created-study-ai-app-patamda-without-degree-20092677}{\color{linkblue}News Article})}
+    \resumeItem{Founded Airflute Technologies and built \textbf{4 production web platforms + 2 mobile apps} as a solo developer}
+    \resumeItem{Scaled previous EdTech platform to \textbf{850K+ downloads} and \textbf{150K+ daily active users}}
+    \resumeItem{Self-taught developer: Built \textbf{25+ websites} and \textbf{10+ mobile apps} without formal CS/IT degree}
     \resumeItem{Pioneered development of \textbf{first-ever Android TV PDF viewer}, addressing significant gap in ecosystem}
-    \resumeItem{Successfully delivered applications achieving \textbf{850K+ downloads} with excellent user ratings and reviews}
-    \resumeItem{Optimized application performance reducing cellular data usage by \textbf{35\%} through efficient loading mechanisms}
-    \resumeItem{Enhanced code reliability and maintainability through comprehensive component libraries and testing}
-    \resumeItem{Consistently delivered multiple complex projects as solo developer within tight deadlines}
 \end{itemize}
 
 \vspace{1mm}
@@ -260,7 +248,7 @@ optimizing application performance, and implementing secure payment solutions us
 % Updated date in footer
 \vfill
 \begin{center}
-{\small \color{black} \bfseries This résumé is built using \LaTeX.}
+{\small \color{black} \bfseries Built with \LaTeX\ | 2026 Airflute Technologies}
 \end{center}
 
 \end{document}
