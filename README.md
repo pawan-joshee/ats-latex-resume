@@ -27,10 +27,9 @@ copilot, please convert my resume (attached) into a modern, ATS-friendly LaTeX r
 - Copy the entire LaTeX code.
 
 **4. Create Your Resume PDF with Overleaf**
-- Go to [Overleaf.com](https://overleaf.com) and sign in (free account is fine).
-- Click `New Project > Blank Project`.
+- Go to [texviewer](https://texviewer.herokuapp.com/) .
 - Paste the LaTeX code into `main.tex`.
-- Click `Recompile` to generate your PDF resume.
+- Click `View as PDF` to generate your PDF resume.
 
 **5. Enhance and Customize!**
 - Edit your resume directly in Overleaf to improve formatting, wording, or add additional details.
@@ -43,8 +42,8 @@ copilot, please convert my resume (attached) into a modern, ATS-friendly LaTeX r
 
 Here is an example of an ATS-friendly resume generated using this method:
 
-![Resume page 1](Resume_1.png)
-![Resume page 2](Resume_2.png)
+![Resume page 1](Resume_3.png)
+![Resume page 2](Resume_4.png)
 
 ...
 
