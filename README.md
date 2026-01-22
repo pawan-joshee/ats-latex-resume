@@ -42,8 +42,8 @@ copilot, please convert my resume (attached) into a modern, ATS-friendly LaTeX r
 
 Here is an example of an ATS-friendly resume generated using this method:
 
-![Resume page 1](Resume_3.png)
-![Resume page 2](Resume_4.png)
+![Resume page 1](Resume_4.png)
+![Resume page 2](Resume_3.png)
 
 ...
 
